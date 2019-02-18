@@ -1,0 +1,491 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:65px;
+    background-color:black;
+    display:flex;
+    justify-content:flex-end;
+    
+}
+header i{
+    color:white;
+    font-size:35px;
+}
+.image{
+    width: 100%;
+    position: relative;
+}
+.image img{
+    width: 100%;
+}
+.title{
+    width:100%;
+    height:auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.title .nav {
+    display:flex;
+    justify-content: space-around;
+    background-color:rgb(194, 182, 182,0.5);
+    height: 100px;
+}
+.title .name{
+    display: flex;
+}
+.title .name i{
+    color:red;
+    font-size:35px;
+    margin-right:30px;
+    padding:0px;
+}
+.title .name h1{
+    color:white;
+    font-size:35px;
+    margin:0px;
+    padding:0px; 
+}
+.image .title .nav{
+    display:flex;
+    justify-items: center;
+    align-items: center;
+}
+.menu{
+    width:50%;
+    display:flex;
+    justify-content:flex-end;
+    padding:15px;
+    word-spacing:10px;
+}
+.menu nav a{
+    color:white;
+    text-decoration:none;
+}
+.menu nav a:hover{
+    color:red;
+    text-decoration: underline;
+    font-size:15px;
+}
+.maintitle{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    color:white;
+    margin-top:95px;
+}
+.maintitle h2{
+    font-size:95px;
+    margin:0px;
+    padding:0px;
+}
+.maintitle h4{
+    font-size:25px;
+    line-height: 2;
+}
+.maintitle span{
+    border-top:2px solid white;
+    width:50%;
+    margin-top:15px;
+    padding:0px;
+
+}
+.maintitle .border{
+    border-bottom:2px solid white;
+    width:50%;
+    margin-bottom:18px;
+    padding:0px;
+
+
+}
+.secondMain{
+    width: 100%;
+    height:300px;
+    margin-top:80px;
+    
+}
+.secondMain h1{
+    width:100%;
+    height:100px;
+    font-size:35px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:65px;
+}
+
+.secondMain .image{
+    width:100%;
+    height:200px;
+    display:flex;
+    justify-content: space-around;
+}
+.secondMain .image .leftimg{
+    width:27.8%;
+    position:relative;
+}
+.secondMain .image .leftimg section{
+    position:absolute;
+    top:100px;
+    left:100px;
+}
+.secondMain .image .leftimg section h2{
+    color:white;
+    font-size:35px;
+}
+.secondMain .image .leftimg section p{
+    color:white;
+    font-size:20px;
+    margin-left:35px;
+}
+.secondMain .image .middleimg{
+    width:31%;
+    position:relative;
+}
+.secondMain .image .middleimg section{
+    position:absolute;
+    top:100px;
+    left:100px;
+
+}
+.secondMain .image .middleimg section h2{
+    color:white;
+    font-size:35px;
+}
+.secondMain .image .middleimg section p{
+    color:white;
+    font-size:20px;
+    margin-left:35px;
+}
+
+.secondMain .image .rightimg{
+    width:29%;
+    position:relative;
+}
+.secondMain .image .rightimg section{
+    position:absolute;
+    top:100px;
+    left:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.secondMain .image .rightimg section h2{
+    color:white;
+    font-size:35px;
+    
+}
+.secondMain .image .rightimg section p{
+    color:white;
+    font-size:20px;
+    margin-left:35px;
+}
+.thirdmain{
+    width:100%;
+    height:auto; 
+    margin-top:200px;
+}
+.thirdmain h2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:50px;
+}
+.thirdmain span{
+    border-top:2px solid black;
+    width:50px;
+}
+.thirdmain .allimg span{
+    border:1px solid  pink;
+    background-color:rgb(219, 55, 55);
+    width:35px;
+    height:20px;
+    margin-left:0px;
+    margin-top:0px;
+    color:white;
+    font-size:14px;
+}
+.thirdmain .allimg{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    margin-top:68px;
+}
+.thirdmain .allimg .firstimg{
+    width:20%;
+}
+.thirdmain .allimg .firstimg img{
+    width:70%;
+}
+.thirdmain .allimg .secondimg{
+    width:20%;
+}
+.thirdmain .allimg .secondimg img{
+    width:70%;
+}
+.thirdmain .allimg .thirdimg{
+    width:20%;
+}
+.thirdmain .allimg .thirdimg img{
+    width:70%;
+}
+.thirdmain .allimg .fourthimg{
+    width:20%;
+}
+.thirdmain .allimg .fourthimg img{
+    width:70%;
+}
+.thirdmain .allimg .firstimg section{
+    line-height:2;
+    margin-left:22px;
+}
+.thirdmain .allimg .firstimg section p{
+    font-size:18px;
+}
+.thirdmain .allimg .firstimg section input {
+  background-color: rgb(184, 55, 77);
+  color:white;
+  width:100px;
+  height:30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left:15px;
+}
+.thirdmain .allimg .secondimg section{
+    line-height:2;
+    margin-left:22px;
+}
+.thirdmain .allimg .secondimg section p{
+    font-size:18px;
+}
+.thirdmain .allimg .secondimg section input {
+  background-color: rgb(184, 55, 77);
+  color:white;
+  width:100px;
+  height:30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left:15px;
+}
+.thirdmain .allimg .thirdimg section{
+    line-height:2;
+    margin-left:22px;
+}
+.thirdmain .allimg .thirdimg section p{
+    font-size:18px;
+}
+.thirdmain .allimg .thirdimg section input {
+  background-color: rgb(184, 55, 77);
+  color:white;
+  width:100px;
+  height:30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left:15px;
+}
+.thirdmain .allimg .fourthimg section{
+    line-height:2;
+    margin-left:22px;
+}
+.thirdmain .allimg .fourthimg section p{
+    font-size:18px;
+}
+.thirdmain .allimg .fourthimg section input {
+  background-color: rgb(184, 55, 77);
+  color:white;
+  width:100px;
+  height:30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left:15px;
+}
+.thirdmain .allimg section input:hover{
+    background-color: blue;
+}
+.thirdmain .allimg section{
+    display:flex;
+    flex-direction: column;
+}
+.thirdmain .allimg img:hover{
+    width:70%;
+    opacity: 0.5;
+    color:blue; 
+}
+.fourthmain{
+    margin-top:30px;
+    width:100%;
+    position:relative;
+}
+.fourthmain img {
+    width:100%; 
+}
+.fourthmain  .content{
+    width:100%;
+    height:auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    margin-top:200px;
+}
+
+.fourthmain  .content i{
+    font-size:55px;
+    opacity: 0.5;
+    color:white;
+    
+}
+.fourthmain  .content h1{
+    font-size:65px;
+    color:white;
+    letter-spacing: 2;
+}
+.fourthmain  .content p{
+    font-size:18px;
+    color:white;
+    margin-top:82px;
+}
+.fourthmain  .content span{
+    font-size:18px;
+    color:white;
+}
+.fourthmain  .content .border{
+    border-top:3px solid white;
+    width:50px;
+    height:30px;
+    margin:0px;
+    padding:0px;
+}
+.fourthmain  .content input{
+    width:80px;
+    height:35px;
+    background-color:rgba(206, 19, 19, 0.5);
+    outline: blue;
+    margin-top:32px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:14px;
+}
+.fourthmain  .content input:hover{
+    background-color:blue;
+}
+
+.fifthmain{
+    width:100%;
+    height:400px;
+    margin-top:75px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fifthmain h1{
+    font-size:55px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:2.4;
+}
+.fifthmain pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:19px;
+    color:gray;
+    margin-top:12px;
+}
+.fifthmain h3{
+    font-size:30px;
+    margin-top:15px;
+    
+}
+.fifthmain p{
+    font-size:15px;
+    color:gray;
+}
+.fifthmain i{
+    font-size:65px;
+    margin-top:12px;
+}
+.fifthmain span{
+    border-top:1px solid black;
+    width:50px;
+    height:20px;
+    margin:0px;
+    padding:0px;
+
+}
+.fifthmain span{
+    border-top:5px solid black;
+    width:50px;
+    height:20px;
+    margin:0px;
+    padding:0px;
+
+}
+
+.sixmain{
+    width:100%;
+    height:auto;
+    display:flex;
+    margin-top:90px;
+}
+.sixmain .first{
+    width:25%;
+}
+
+.sixmain .first img{
+    width:100%;
+    height:100%;
+}
+.sixmain .second{
+    width:25%;
+}
+.sixmain .second img{
+    width:100%;
+    height: 100%;
+}
+.sixmain .third{
+    width:25%;
+}
+.sixmain .third img{
+    width:100%;
+    height:100%;
+}
+.sixmain .fourth{
+    width:25%;
+}
+.sixmain .fourth img{
+    width:100%;
+    height:100%;
+}
+footer{
+    width:100%;
+    height:330px;
+    background-color: rgb(31, 29, 29);
+    padding:42px;
+}
+
+footer section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height:1.8;
+}
+footer section p{
+    font-size:25px;
+    color:white;
+}
+footer section pre{
+    font-size:25px;
+    color:white;
+}
+footer #end{
+    font-size:55px;
+    color:purple;
+    display:flex;
+    justify-content: flex-end;
+}
